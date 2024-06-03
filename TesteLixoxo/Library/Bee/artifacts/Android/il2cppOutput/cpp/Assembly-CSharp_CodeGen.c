@@ -1,0 +1,149 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CarDriveLeftSideScript_Start_m3B47562581C7D38F3CBD7643A18B0ED6A980AA9B (void);
+extern void CarDriveLeftSideScript_Update_m44A4D06B991E3EC4BAE13EE473BF179593CD64FE (void);
+extern void CarDriveLeftSideScript__ctor_m11CF9709578731CB042F799F14B8B0E600EF929B (void);
+extern void CarDriveRightSideScript_Start_mD5B148D11A991F9F1FF595470A971C3158071A00 (void);
+extern void CarDriveRightSideScript_Update_m78A372170D723C2D0B9A609E210A9FF089AAF554 (void);
+extern void CarDriveRightSideScript__ctor_m98179D5FD40B097F19512A5D28E17FA210402BF6 (void);
+extern void PlayerCharacterScript_Start_m744A95C94E1AF6CF5923160DA34647EEDC7854DA (void);
+extern void PlayerCharacterScript_Update_mF8243AB81EE587B48460F75CC62DBBDC222D77ED (void);
+extern void PlayerCharacterScript_JumpUp_mF423ADD6A21A7E6D8083DFDA83C7C30E4718DDB2 (void);
+extern void PlayerCharacterScript_SpawnNewStrip_m55311D8D373A543C45E22ECAD007DC1BCBF1EBE0 (void);
+extern void PlayerCharacterScript_OnTriggerEnter_mEA24913BB6DB23CCAEB339AA80C751015932707B (void);
+extern void PlayerCharacterScript_DeathAnimation_m81BD0BD43163740A27DE281A9AB3812A2478B20F (void);
+extern void PlayerCharacterScript_UpdateDeathAnimation_m0160979AE0C5419145255CC4AA63A130509B752A (void);
+extern void PlayerCharacterScript_SwipeUp_m5FE1CBA3F133EBFB47B04812F652CD07879AB301 (void);
+extern void PlayerCharacterScript_SwipeDown_m1CF9F00E6C61099105FACC88590360CE03562BB3 (void);
+extern void PlayerCharacterScript_SwipeLeft_m7A82EC01DD5B74EC70A065D05131BF08EB6BD847 (void);
+extern void PlayerCharacterScript_SwipeRight_mD06716E15448B0324B94A96993594BBA10E72D81 (void);
+extern void PlayerCharacterScript_JumpDown_m38E8FB1AE86AFF1FFA79A15C7634701955B3F4F0 (void);
+extern void PlayerCharacterScript_JumpRight_m602975CBE8E8A39842674D6B1A247346DEFD690E (void);
+extern void PlayerCharacterScript_JumpLeft_m2293A3EC4A304F7EC5428DF99725294417D160AE (void);
+extern void PlayerCharacterScript_ButtonStartPressed_m11F7597D18EBC55BC222995336AB349A8B3C2342 (void);
+extern void PlayerCharacterScript_BringUpGameOverPanel_m97BBBA280B0412573E0A2AA52D74835C4C4B353D (void);
+extern void PlayerCharacterScript_HideGameOverPanel_mB95175C27F2E92567C846BC340A3ECFEEDDE53CD (void);
+extern void PlayerCharacterScript_PlayAgain_m6BB7567ABB6D87B70FA5F302B159A4B9A8B71F50 (void);
+extern void PlayerCharacterScript__ctor_mD784711D893E5D650B2517DFF47E44AA67994B22 (void);
+extern void SwipeDetector_Start_mF8D3FB6BB65BCBF8892C2680EF3C0A5E43A7BAEC (void);
+extern void SwipeDetector_Update_m2E56E1467B4F281800EAA87B0DAE84BA4F7A83CF (void);
+extern void SwipeDetector_OnSwipeLeft_mEC2CA074436A0798F5D0C68C9DA8236AEF103024 (void);
+extern void SwipeDetector_OnSwipeRight_m07941C0639B1571C5D4573BD402FEE294F5F1EDD (void);
+extern void SwipeDetector_OnSwipeTop_m6655B4070B7C6DEBD6F31AFAED2981C39BF9B8B4 (void);
+extern void SwipeDetector_OnSwipeBottom_mDB03D1ED9BA433508BA8F5564491B2C5E6B4497E (void);
+extern void SwipeDetector__ctor_m8BB01B9DB018A908859B5C03897262BDD77C0836 (void);
+extern void SwipeMobileDetector_Update_m484DEA4B5BEDEB2DE4305A94AD372ECF558DD1F5 (void);
+extern void SwipeMobileDetector__ctor_m6FB9E65F34C85729A00B015773717A4F2DC6DD44 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[36] = 
+{
+	CarDriveLeftSideScript_Start_m3B47562581C7D38F3CBD7643A18B0ED6A980AA9B,
+	CarDriveLeftSideScript_Update_m44A4D06B991E3EC4BAE13EE473BF179593CD64FE,
+	CarDriveLeftSideScript__ctor_m11CF9709578731CB042F799F14B8B0E600EF929B,
+	CarDriveRightSideScript_Start_mD5B148D11A991F9F1FF595470A971C3158071A00,
+	CarDriveRightSideScript_Update_m78A372170D723C2D0B9A609E210A9FF089AAF554,
+	CarDriveRightSideScript__ctor_m98179D5FD40B097F19512A5D28E17FA210402BF6,
+	PlayerCharacterScript_Start_m744A95C94E1AF6CF5923160DA34647EEDC7854DA,
+	PlayerCharacterScript_Update_mF8243AB81EE587B48460F75CC62DBBDC222D77ED,
+	PlayerCharacterScript_JumpUp_mF423ADD6A21A7E6D8083DFDA83C7C30E4718DDB2,
+	PlayerCharacterScript_SpawnNewStrip_m55311D8D373A543C45E22ECAD007DC1BCBF1EBE0,
+	PlayerCharacterScript_OnTriggerEnter_mEA24913BB6DB23CCAEB339AA80C751015932707B,
+	PlayerCharacterScript_DeathAnimation_m81BD0BD43163740A27DE281A9AB3812A2478B20F,
+	PlayerCharacterScript_UpdateDeathAnimation_m0160979AE0C5419145255CC4AA63A130509B752A,
+	PlayerCharacterScript_SwipeUp_m5FE1CBA3F133EBFB47B04812F652CD07879AB301,
+	PlayerCharacterScript_SwipeDown_m1CF9F00E6C61099105FACC88590360CE03562BB3,
+	PlayerCharacterScript_SwipeLeft_m7A82EC01DD5B74EC70A065D05131BF08EB6BD847,
+	PlayerCharacterScript_SwipeRight_mD06716E15448B0324B94A96993594BBA10E72D81,
+	PlayerCharacterScript_JumpDown_m38E8FB1AE86AFF1FFA79A15C7634701955B3F4F0,
+	PlayerCharacterScript_JumpRight_m602975CBE8E8A39842674D6B1A247346DEFD690E,
+	PlayerCharacterScript_JumpLeft_m2293A3EC4A304F7EC5428DF99725294417D160AE,
+	PlayerCharacterScript_ButtonStartPressed_m11F7597D18EBC55BC222995336AB349A8B3C2342,
+	PlayerCharacterScript_BringUpGameOverPanel_m97BBBA280B0412573E0A2AA52D74835C4C4B353D,
+	PlayerCharacterScript_HideGameOverPanel_mB95175C27F2E92567C846BC340A3ECFEEDDE53CD,
+	PlayerCharacterScript_PlayAgain_m6BB7567ABB6D87B70FA5F302B159A4B9A8B71F50,
+	PlayerCharacterScript__ctor_mD784711D893E5D650B2517DFF47E44AA67994B22,
+	SwipeDetector_Start_mF8D3FB6BB65BCBF8892C2680EF3C0A5E43A7BAEC,
+	SwipeDetector_Update_m2E56E1467B4F281800EAA87B0DAE84BA4F7A83CF,
+	SwipeDetector_OnSwipeLeft_mEC2CA074436A0798F5D0C68C9DA8236AEF103024,
+	SwipeDetector_OnSwipeRight_m07941C0639B1571C5D4573BD402FEE294F5F1EDD,
+	SwipeDetector_OnSwipeTop_m6655B4070B7C6DEBD6F31AFAED2981C39BF9B8B4,
+	SwipeDetector_OnSwipeBottom_mDB03D1ED9BA433508BA8F5564491B2C5E6B4497E,
+	SwipeDetector__ctor_m8BB01B9DB018A908859B5C03897262BDD77C0836,
+	SwipeMobileDetector_Update_m484DEA4B5BEDEB2DE4305A94AD372ECF558DD1F5,
+	SwipeMobileDetector__ctor_m6FB9E65F34C85729A00B015773717A4F2DC6DD44,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[36] = 
+{
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	3429,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	4243,
+	6262,
+	4243,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	36,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

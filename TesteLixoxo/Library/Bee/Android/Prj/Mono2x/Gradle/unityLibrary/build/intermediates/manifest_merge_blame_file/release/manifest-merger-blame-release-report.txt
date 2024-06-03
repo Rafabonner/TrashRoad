@@ -4,7 +4,7 @@
 4    package="com.unity3d.player" >
 5
 6    <uses-sdk
-7        android:minSdkVersion="22"
+7        android:minSdkVersion="23"
 7-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 8        android:targetSdkVersion="32" />
 8-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
@@ -38,7 +38,7 @@
 22-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:81-105
 23
 24    <application android:extractNativeLibs="true" >
-24-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-22:17
+24-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-23:17
 24-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:16-48
 25        <meta-data
 25-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:5-69
@@ -59,60 +59,68 @@
 33            android:value="True" />
 33-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
 34        <meta-data
-34-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-81
-35            android:name="notch.config"
-35-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-43
-36            android:value="portrait|landscape" />
-36-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:44-78
+34-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-73
+35            android:name="android.max_aspect"
+35-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-49
+36            android:value="1.86" />
+36-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:50-70
 37        <meta-data
-37-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-84
-38            android:name="unity.auto-report-fully-drawn"
-38-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-60
-39            android:value="true" />
-39-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:61-81
-40
-41        <activity
-41-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-21:16
-42            android:name="com.unity3d.player.UnityPlayerActivity"
-42-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:15-68
-43            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-43-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:180-361
-44            android:exported="true"
-44-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:433-456
-45            android:hardwareAccelerated="false"
-45-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:397-432
-46            android:launchMode="singleTask"
-46-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:148-179
-47            android:resizeableActivity="false"
-47-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:362-396
-48            android:screenOrientation="fullUser"
-48-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:111-147
-49            android:theme="@style/UnityThemeSelector" >
-49-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:69-110
-50            <intent-filter>
-50-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:7-18:23
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:9-69
-51-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:19-66
-52
-53                <action android:name="android.intent.action.MAIN" />
-53-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:9-61
-53-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:17-58
-54            </intent-filter>
-55
-56            <meta-data
-56-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:7-82
-57                android:name="unityplayer.UnityActivity"
-57-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:18-58
-58                android:value="true" />
-58-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:59-79
-59            <meta-data
-59-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:7-70
-60                android:name="notch_support"
-60-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:18-46
-61                android:value="true" />
-61-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:47-67
-62        </activity>
-63    </application>
-64
-65</manifest>
+37-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+38            android:name="notch.config"
+38-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+39            android:value="portrait|landscape" />
+39-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+40        <meta-data
+40-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+41            android:name="unity.auto-report-fully-drawn"
+41-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-60
+42            android:value="true" />
+42-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:61-81
+43
+44        <activity
+44-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-22:16
+45            android:name="com.unity3d.player.UnityPlayerActivity"
+45-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-68
+46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+46-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:209-390
+47            android:exported="true"
+47-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:462-485
+48            android:hardwareAccelerated="false"
+48-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:426-461
+49            android:launchMode="singleTask"
+49-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:148-179
+50            android:maxAspectRatio="186"
+50-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:180-208
+51            android:resizeableActivity="false"
+51-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:391-425
+52            android:screenOrientation="fullUser"
+52-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-147
+53            android:theme="@style/UnityThemeSelector" >
+53-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:69-110
+54            <intent-filter>
+54-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:7-19:23
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:9-69
+55-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:19-66
+56
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-61
+57-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-58
+58            </intent-filter>
+59
+60            <meta-data
+60-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:7-82
+61                android:name="unityplayer.UnityActivity"
+61-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:18-58
+62                android:value="true" />
+62-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:59-79
+63            <meta-data
+63-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-70
+64                android:name="notch_support"
+64-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:18-46
+65                android:value="true" />
+65-->C:\Users\Bonner\Documents\GAMES\TesteLixoxo\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:47-67
+66        </activity>
+67    </application>
+68
+69</manifest>

@@ -6,7 +6,7 @@
     android:versionName="0.1" >
 
     <uses-sdk
-        android:minSdkVersion="22"
+        android:minSdkVersion="23"
         android:targetSdkVersion="32" />
 
     <supports-screens
@@ -44,6 +44,9 @@
             android:name="unity.launch-fullscreen"
             android:value="True" />
         <meta-data
+            android:name="android.max_aspect"
+            android:value="1.86" />
+        <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
         <meta-data
@@ -56,6 +59,7 @@
             android:exported="true"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
+            android:maxAspectRatio="186"
             android:resizeableActivity="false"
             android:screenOrientation="fullUser"
             android:theme="@style/UnityThemeSelector" >

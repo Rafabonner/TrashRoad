@@ -1,7 +1,7 @@
 <variant
     name="release"
     package="com.DefaultCompany.TesteLixoxo"
-    minSdkVersion="22"
+    minSdkVersion="23"
     targetSdkVersion="32"
     mergedManifest="build\intermediates\merged_manifest\release\AndroidManifest.xml"
     manifestMergeReport="build\outputs\logs\manifest-merger-release-report.txt"

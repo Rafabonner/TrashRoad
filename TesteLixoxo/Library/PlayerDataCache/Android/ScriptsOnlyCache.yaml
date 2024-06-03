@@ -7,6 +7,8 @@ ScriptsOnlyBuild:
     - SwipeDetector
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -33,7 +35,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Component
+    methodName: SendMessage
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Component
+    methodName: SendMessage
   sceneClasses:
     Assets/LEVEL_1.unity:
     - Class: 1
@@ -67,29 +75,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16590}
+      Script: {instanceID: 16654}
     - Class: 114
-      Script: {instanceID: 16656}
+      Script: {instanceID: 17648}
     - Class: 114
-      Script: {instanceID: 17650}
+      Script: {instanceID: 17850}
     - Class: 114
-      Script: {instanceID: 17852}
+      Script: {instanceID: 18138}
     - Class: 114
-      Script: {instanceID: 18140}
+      Script: {instanceID: 19644}
     - Class: 114
       Script: {instanceID: 20298}
     - Class: 114
       Script: {instanceID: 20594}
     - Class: 114
-      Script: {instanceID: 21058}
+      Script: {instanceID: 21060}
     - Class: 114
-      Script: {instanceID: 22740}
+      Script: {instanceID: 21246}
     - Class: 114
-      Script: {instanceID: 22834}
+      Script: {instanceID: 22420}
     - Class: 114
-      Script: {instanceID: 22838}
+      Script: {instanceID: 22620}
     - Class: 114
-      Script: {instanceID: 22842}
+      Script: {instanceID: 22748}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -113,12 +121,6 @@ ScriptsOnlyBuild:
     - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: c516a086dc080c1087acde0aaa78729f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerCharacterScript
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -529,6 +531,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c516a086dc080c1087acde0aaa78729f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerCharacterScript
+  - hash:
+      serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -685,6 +693,12 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: a50b20750ea2aa6b6b3cefac88b7e560
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SwipeMobileDetector
+  - hash:
+      serializedVersion: 2
       Hash: 9637dcdf3068a91dfe653e61bb82f13d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -737,6 +751,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: fffcf06159e7a8b8a2c5683ac17bec2e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CarDriveRightSideScript
   - hash:
       serializedVersion: 2
       Hash: f669be52680c88846b2093fd41d1e06e
@@ -895,6 +915,12 @@ ScriptsOnlyBuild:
     className: StateMachine
   - hash:
       serializedVersion: 2
+      Hash: bc6b42f3534fd8ed4631d29aa19193a2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CarDriveLeftSideScript
+  - hash:
+      serializedVersion: 2
       Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -905,6 +931,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 9df878c7ae907f8369fc15f0ad4ea03c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SwipeDetector
   - hash:
       serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
@@ -941,31 +973,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: a50b20750ea2aa6b6b3cefac88b7e560
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SwipeMobileDetector
-  - hash:
-      serializedVersion: 2
-      Hash: bc6b42f3534fd8ed4631d29aa19193a2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CarDriveLeftSideScript
-  - hash:
-      serializedVersion: 2
-      Hash: fffcf06159e7a8b8a2c5683ac17bec2e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CarDriveRightSideScript
-  - hash:
-      serializedVersion: 2
-      Hash: 9df878c7ae907f8369fc15f0ad4ea03c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SwipeDetector
   platform: 13
   scenePathNames:
   - Assets/LEVEL_1.unity
-  playerPath: C:/Users/Bonner/Documents/GAMES/TRASHROAD.apk
+  playerPath: C:/Users/Bonner/Documents/GAMES/TRASHROADV5.apk
